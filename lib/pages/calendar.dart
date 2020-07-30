@@ -6,8 +6,10 @@ class Calendario extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Calendário',
-        style: TextStyle(color:  Colors.black),),
+        title: Text(
+          'Calendário',
+          style: TextStyle(color: Colors.black),
+        ),
         centerTitle: true,
       ),
       drawer: DrawerPerson(),
