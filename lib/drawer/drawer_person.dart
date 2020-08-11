@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:salao1/main.dart';
 import 'package:salao1/pages/calendar.dart';
+import 'package:salao1/pages/home_page.dart';
+
 
 class DrawerPerson extends StatelessWidget {
   @override
@@ -28,7 +29,7 @@ class DrawerPerson extends StatelessWidget {
             Navigator.pop(context);
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => Home()),
+              MaterialPageRoute(builder: (context) => HomePage()),
             );
           },
         ),
